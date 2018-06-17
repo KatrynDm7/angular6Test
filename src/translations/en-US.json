@@ -9,7 +9,7 @@
   "phone": "Phone",
   "User List": "User List",
   "The project is developed on the basis of angular 6 dev-starter kit.": "The project is developed on the basis of angular 6 dev-starter kit.",
-  "For such components and functionality as table, pagination, cards, sorting - were used ng-prime components.": "For such components and functionality as table, pagination, cards, sorting - were used ng-prime components.",
+  "For such components and functionality as table, pagination, cards, sorting - were used components": "For such components and functionality as table, pagination, cards, sorting - were used components",
   "But Filter component is fully self-written.":  "But Filter component is fully self-written.",
   "Bonuses: localization (RU/EN).": "Bonuses: localization (RU/EN).",
   "Data is generated into-json file with 400 users":  "Data is generated into-json file with 400 users",
