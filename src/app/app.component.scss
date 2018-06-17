@@ -1,0 +1,21 @@
+:host {
+  display: flex;
+  flex: 1;
+}
+
+:host /deep/ .mat-toolbar.mat-primary {
+  background: #186ba0;
+}
+
+:host /deep/ .ui-table .ui-table-thead > tr > th, .ui-table .ui-table-tfoot > tr > td {
+  border-color: transparent;
+}
+:host /deep/ thead span {
+  font-size: 14px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+:host /deep/ td {
+  font-size: 12px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}

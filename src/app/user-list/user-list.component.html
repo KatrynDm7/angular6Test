@@ -1,0 +1,15 @@
+<div class="control-block">
+    <button (click)="switchListType('list')">
+        <mat-icon>list</mat-icon>
+    </button>
+    <button (click)="switchListType('card')">
+        <mat-icon>camera_front</mat-icon>
+    </button>
+    <button (click)="switchListType('group')">
+        <mat-icon>group</mat-icon>
+    </button>
+    <input id="input" type="text" size="30" (keyup)="filter($event.target.value)">
+</div>
+<app-group *ngIf="listView == 'group'" [columns]="columns" [data]="users"></app-group>
+<app-list *ngIf="listView == 'list'" [columns]="columns" [data]="users"></app-list>
+<app-card *ngIf="listView == 'card'" [columns]="columns" [data]="users"></app-card>

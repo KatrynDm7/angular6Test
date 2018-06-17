@@ -1,0 +1,13 @@
+<p-dataGrid #dt [value]="data" [paginator]="true" [rows]="20" paginatorPosition="bottom">
+    <ng-template let-item pTemplate="item">
+        <div class="ui-g-12 ui-md-3">
+            <p-panel [header]="item.first_name + ' ' + item.last_name" [style]="{'text-align':'center'}">
+                <img src="assets/user.png" width="60">
+                <div class="user-detail">
+                    <p>{{item.department}}</p>
+                    <p>{{item.phone}}</p>
+                </div>
+            </p-panel>
+        </div>
+    </ng-template>
+</p-dataGrid>

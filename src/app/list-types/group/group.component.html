@@ -1,0 +1,13 @@
+<p-dataGrid [value]="departments" [paginator]="true" [rows]="4" paginatorPosition="bottom">
+    <ng-template let-item pTemplate="item">
+        <div class="ui-g-12 ui-md-3">
+            <p-panel [header]="item" [style]="{'text-align':'center'}">
+                <div class="group-detail">
+                    <p-panel *ngFor="let groupItem of getUsersByDepartment(item)" [style]="{'text-align':'center'}">
+                        <p>{{groupItem['first_name']}} {{groupItem['last_name']}}</p>
+                    </p-panel>
+                </div>
+            </p-panel>
+        </div>
+    </ng-template>
+</p-dataGrid>
