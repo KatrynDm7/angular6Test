@@ -13,7 +13,5 @@
   "But Filter component is fully self-written.": "Но компонет Фильтр полностью самописный",
   "Bonuses: localization (RU/EN).": "Бонусы: локализация (РУС/АНГЛ).",
   "Data is generated into-json file with 400 users": "Данные сгенерированы в json-файл с 400 пользователей",
-  "Fields": "Поля",
-  "Link to json": "Ссылка на json ",
-  "Link to demo of project is": "Ссылка на демо проекта"
+  "Fields": "Поля"
 }

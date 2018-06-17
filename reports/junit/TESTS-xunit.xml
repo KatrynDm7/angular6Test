@@ -1,52 +1,52 @@
 <?xml version="1.0"?>
-<testsuite name="HeadlessChrome 0.0.0 (Mac OS X 10.13.5)" package="" timestamp="2018-06-17T16:15:42" id="0" hostname="192-168-1-44.local" tests="44" errors="0" failures="0" time="3.326">
+<testsuite name="HeadlessChrome 0.0.0 (Mac OS X 10.13.5)" package="" timestamp="2018-06-17T16:41:34" id="0" hostname="192-168-1-44.local" tests="44" errors="0" failures="0" time="3.934">
   <properties>
     <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/69.0.3452.0 Safari/537.36"/>
   </properties>
-  <testcase name="AppComponent should create the app" time="0.628" classname="AppComponent"/>
-  <testcase name="ApiPrefixInterceptor should prepend environment.serverUrl to the request url" time="0.009" classname="ApiPrefixInterceptor"/>
-  <testcase name="CacheInterceptor with default configuration should cache the request" time="0.008" classname="CacheInterceptor"/>
-  <testcase name="CacheInterceptor with default configuration should respond from the cache" time="0.012" classname="CacheInterceptor"/>
+  <testcase name="AppComponent should create the app" time="0.6" classname="AppComponent"/>
+  <testcase name="ApiPrefixInterceptor should prepend environment.serverUrl to the request url" time="0.017" classname="ApiPrefixInterceptor"/>
+  <testcase name="CacheInterceptor with default configuration should cache the request" time="0.01" classname="CacheInterceptor"/>
+  <testcase name="CacheInterceptor with default configuration should respond from the cache" time="0.009" classname="CacheInterceptor"/>
   <testcase name="CacheInterceptor with default configuration should not cache the request in case of error" time="0.007" classname="CacheInterceptor"/>
-  <testcase name="CacheInterceptor with update forced configuration should force cache update" time="0.006" classname="CacheInterceptor"/>
-  <testcase name="ErrorHandlerInterceptor should catch error and call error handler" time="0.009" classname="ErrorHandlerInterceptor"/>
+  <testcase name="CacheInterceptor with update forced configuration should force cache update" time="0.007" classname="CacheInterceptor"/>
+  <testcase name="ErrorHandlerInterceptor should catch error and call error handler" time="0.013" classname="ErrorHandlerInterceptor"/>
   <testcase name="HttpCacheService setCacheData should set cache data" time="0.005" classname="HttpCacheService"/>
-  <testcase name="HttpCacheService setCacheData should replace existing data" time="0.004" classname="HttpCacheService"/>
-  <testcase name="HttpCacheService setCacheData should set cache date correctly" time="0.005" classname="HttpCacheService"/>
-  <testcase name="HttpCacheService getCacheData should return null if no cache" time="0.013" classname="HttpCacheService"/>
-  <testcase name="HttpCacheService getCacheData should return cached data if exists" time="0.005" classname="HttpCacheService"/>
-  <testcase name="HttpCacheService getCacheData should return cached data with url parameters if exists" time="0.004" classname="HttpCacheService"/>
-  <testcase name="HttpCacheService getHttpCacheEntry should return null if no cache" time="0.005" classname="HttpCacheService"/>
-  <testcase name="HttpCacheService getHttpCacheEntry should return cached data date  if exists" time="0.003" classname="HttpCacheService"/>
+  <testcase name="HttpCacheService setCacheData should replace existing data" time="0.007" classname="HttpCacheService"/>
+  <testcase name="HttpCacheService setCacheData should set cache date correctly" time="0.006" classname="HttpCacheService"/>
+  <testcase name="HttpCacheService getCacheData should return null if no cache" time="0.008" classname="HttpCacheService"/>
+  <testcase name="HttpCacheService getCacheData should return cached data if exists" time="0.011" classname="HttpCacheService"/>
+  <testcase name="HttpCacheService getCacheData should return cached data with url parameters if exists" time="0.006" classname="HttpCacheService"/>
+  <testcase name="HttpCacheService getHttpCacheEntry should return null if no cache" time="0.006" classname="HttpCacheService"/>
+  <testcase name="HttpCacheService getHttpCacheEntry should return cached data date  if exists" time="0.004" classname="HttpCacheService"/>
   <testcase name="HttpCacheService clearCacheData should clear existing cache data" time="0.004" classname="HttpCacheService"/>
-  <testcase name="HttpCacheService clearCacheData should do nothing if no cache exists" time="0.004" classname="HttpCacheService"/>
-  <testcase name="HttpCacheService cleanCache should clear all cache if no date is specified" time="0.003" classname="HttpCacheService"/>
-  <testcase name="HttpCacheService cleanCache should clear existing since specified date" time="0.008" classname="HttpCacheService"/>
-  <testcase name="HttpCacheService cleanCache should not affect cache entries newer than specified date" time="0.007" classname="HttpCacheService"/>
-  <testcase name="HttpCacheService setPersistence should clear previous cache data when persistence value change" time="0.007" classname="HttpCacheService"/>
-  <testcase name="HttpCacheService setPersistence should persist cache to local storage" time="0.005" classname="HttpCacheService"/>
-  <testcase name="HttpCacheService setPersistence should persist cache to session storage" time="0.004" classname="HttpCacheService"/>
+  <testcase name="HttpCacheService clearCacheData should do nothing if no cache exists" time="0.007" classname="HttpCacheService"/>
+  <testcase name="HttpCacheService cleanCache should clear all cache if no date is specified" time="0.005" classname="HttpCacheService"/>
+  <testcase name="HttpCacheService cleanCache should clear existing since specified date" time="0.012" classname="HttpCacheService"/>
+  <testcase name="HttpCacheService cleanCache should not affect cache entries newer than specified date" time="0.009" classname="HttpCacheService"/>
+  <testcase name="HttpCacheService setPersistence should clear previous cache data when persistence value change" time="0.006" classname="HttpCacheService"/>
+  <testcase name="HttpCacheService setPersistence should persist cache to local storage" time="0.004" classname="HttpCacheService"/>
+  <testcase name="HttpCacheService setPersistence should persist cache to session storage" time="0.005" classname="HttpCacheService"/>
   <testcase name="HttpService should use error handler, API prefix and no cache by default" time="0.01" classname="HttpService"/>
   <testcase name="HttpService should use cache" time="0.007" classname="HttpService"/>
-  <testcase name="HttpService should skip error handler" time="0.008" classname="HttpService"/>
-  <testcase name="HttpService should not use API prefix" time="0.008" classname="HttpService"/>
+  <testcase name="HttpService should skip error handler" time="0.007" classname="HttpService"/>
+  <testcase name="HttpService should not use API prefix" time="0.013" classname="HttpService"/>
   <testcase name="I18nService init should init with default language" time="0.008" classname="I18nService"/>
-  <testcase name="I18nService init should init with save language" time="0.005" classname="I18nService"/>
-  <testcase name="I18nService set language should change current language" time="0.004" classname="I18nService"/>
-  <testcase name="I18nService set language should change current language to default if unsupported" time="0.004" classname="I18nService"/>
-  <testcase name="I18nService get language should return current language" time="0.003" classname="I18nService"/>
-  <testcase name="Logger should create an instance" time="0.001" classname="Logger"/>
-  <testcase name="Logger should add a new LogOutput and receives log entries" time="0" classname="Logger"/>
+  <testcase name="I18nService init should init with save language" time="0.01" classname="I18nService"/>
+  <testcase name="I18nService set language should change current language" time="0.006" classname="I18nService"/>
+  <testcase name="I18nService set language should change current language to default if unsupported" time="0.003" classname="I18nService"/>
+  <testcase name="I18nService get language should return current language" time="0.004" classname="I18nService"/>
+  <testcase name="Logger should create an instance" time="0" classname="Logger"/>
+  <testcase name="Logger should add a new LogOutput and receives log entries" time="0.002" classname="Logger"/>
   <testcase name="Logger should add a new LogOutput and receives only production log entries" time="0" classname="Logger"/>
-  <testcase name="Route withShell should create routes as children of shell" time="0.007" classname="Route"/>
-  <testcase name="HeaderComponent should create" time="0.424" classname="HeaderComponent"/>
-  <testcase name="ShellComponent should create" time="0.366" classname="ShellComponent"/>
-  <testcase name="HomeComponent should create" time="0.344" classname="HomeComponent"/>
-  <testcase name="LoaderComponent should not be visible by default" time="0.283" classname="LoaderComponent"/>
-  <testcase name="LoaderComponent should be visible when app is loading" time="0.253" classname="LoaderComponent"/>
-  <testcase name="LoaderComponent should not display a message by default" time="0.233" classname="LoaderComponent"/>
-  <testcase name="LoaderComponent should display specified message" time="0.24" classname="LoaderComponent"/>
-  <testcase name="UserListComponent should create" time="0.353" classname="UserListComponent"/>
+  <testcase name="Route withShell should create routes as children of shell" time="0.006" classname="Route"/>
+  <testcase name="HeaderComponent should create" time="0.46" classname="HeaderComponent"/>
+  <testcase name="ShellComponent should create" time="0.397" classname="ShellComponent"/>
+  <testcase name="HomeComponent should create" time="0.371" classname="HomeComponent"/>
+  <testcase name="LoaderComponent should not be visible by default" time="0.36" classname="LoaderComponent"/>
+  <testcase name="LoaderComponent should be visible when app is loading" time="0.326" classname="LoaderComponent"/>
+  <testcase name="LoaderComponent should not display a message by default" time="0.263" classname="LoaderComponent"/>
+  <testcase name="LoaderComponent should display specified message" time="0.32" classname="LoaderComponent"/>
+  <testcase name="UserListComponent should create" time="0.593" classname="UserListComponent"/>
   <system-out>
     <![CDATA[
 ]]>
